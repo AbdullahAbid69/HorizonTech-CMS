@@ -152,8 +152,8 @@
                 <div class="card h-100 shadow-sm border-0 hover-shadow" style="transition: transform 0.3s;">
                     <img src="{{asset("altImages/C4.jpg")}}" class="card-img-top" alt="Program 1">
                     <div class="card-body text-center">
-                        <h5 class="card-title text-primary">Program A</h5>
-                        <p class="card-text">Enhance your skills with our hands-on training program.</p>
+                        <h5 class="card-title text-primary">BS Diet & Nutrition</h5>
+                        <p class="card-text">Transportation and hostel facilities available.</p>
                         <a href="{{ route('register.page') }}" class="btn btn-primary mt-2">Apply Now</a>
                     </div>
                 </div>
@@ -164,8 +164,8 @@
                 <div class="card h-100 shadow-sm border-0 hover-shadow" style="transition: transform 0.3s;">
                     <img src="{{asset("altImages/C3.jpg")}}" class="card-img-top" alt="Program 2">
                     <div class="card-body text-center">
-                        <h5 class="card-title text-primary">Program B</h5>
-                        <p class="card-text">Join our internship program and gain real-world experience.</p>
+                        <h5 class="card-title text-primary">BS Nursing</h5>
+                        <p class="card-text">Transportation and hostel facilities available.</p>
                         <a href="{{ route('register.page') }}" class="btn btn-primary mt-2">Apply Now</a>
                     </div>
                 </div>
@@ -176,8 +176,8 @@
                 <div class="card h-100 shadow-sm border-0 hover-shadow" style="transition: transform 0.3s;">
                     <img src="{{asset("altImages/C2.jpg")}}" class="card-img-top" alt="Program 3">
                     <div class="card-body text-center">
-                        <h5 class="card-title text-primary">Program C</h5>
-                        <p class="card-text">Accelerate your career with expert mentorship and guidance.</p>
+                        <h5 class="card-title text-primary">BS Medical Laboratory Technology</h5>
+                        <p class="card-text">Transportation and hostel facilities available.</p>
                         <a href="{{ route('register.page') }}" class="btn btn-primary mt-2">Apply Now</a>
                     </div>
                 </div>
@@ -188,8 +188,8 @@
                 <div class="card h-100 shadow-sm border-0 hover-shadow" style="transition: transform 0.3s;">
                     <img src="{{asset("altImages/C1.jpg")}}" class="card-img-top" alt="Program 4">
                     <div class="card-body text-center">
-                        <h5 class="card-title text-primary">Program D</h5>
-                        <p class="card-text">Start your journey with our foundation-level training.</p>
+                        <h5 class="card-title text-primary">Doctor of Physical Therapy</h5>
+                        <p class="card-text">Transportation and hostel facilities available.</p>
                         <a href="{{ route('register.page') }}" class="btn btn-primary mt-2">Apply Now</a>
                     </div>
                 </div>
@@ -278,7 +278,7 @@
                         </div>
                     </div>
                     <div class="text-center p-4">
-                        <h5 class="mb-0">Dr. Emily Carter</h5>
+                        <h5 class="mb-0">Dr. Ali Abbass</h5>
                         <small>Professor of Nursing Sciences</small>
                     </div>
                 </div>
@@ -292,12 +292,12 @@
                     <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
                         <div class="bg-light d-flex justify-content-center pt-2 px-1">
                             <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-linkedin"></i></a>
                             <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                     <div class="text-center p-4">
-                        <h5 class="mb-0">Ms. Olivia Brown</h5>
+                        <h5 class="mb-0">Ms. Alishba Khan</h5>
                         <small>Clinical Nursing Instructor</small>
                     </div>
                 </div>
@@ -311,12 +311,12 @@
                     <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
                         <div class="bg-light d-flex justify-content-center pt-2 px-1">
                             <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-linkedin"></i></a>
                             <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                     <div class="text-center p-4">
-                        <h5 class="mb-0">Mr. Ethan Wilson</h5>
+                        <h5 class="mb-0">Mr. Muzammil Nawaz</h5>
                         <small>Community Health Specialist</small>
                     </div>
                 </div>
@@ -330,12 +330,12 @@
                     <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
                         <div class="bg-light d-flex justify-content-center pt-2 px-1">
                             <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-linkedin"></i></a>
                             <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                     <div class="text-center p-4">
-                        <h5 class="mb-0">Prof. Sophia Martinez</h5>
+                        <h5 class="mb-0">Prof. Sophia Ali</h5>
                         <small>Head of Nursing Department</small>
                     </div>
                 </div>
