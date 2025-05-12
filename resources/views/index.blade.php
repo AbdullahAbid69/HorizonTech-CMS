@@ -1,0 +1,491 @@
+@include("frontPage.header")
+<!-- Spinner Start -->
+<div id="spinner"
+    class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+</div>
+<!-- Spinner End -->
+
+
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0 ">
+    <a href="#" class="navbar-brand px-4 px-lg-5">
+        <h2 class="m-0 text-primary">
+            <span>
+                <img height="70" src="{{asset("altImages/Horizon Tech.jpg")}}" class="mr-2" alt="logo" />
+                Horizon Tech
+            </span>
+        </h2>
+    </a>
+    <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+            <a href="{{route("indexPage")}}" class="nav-item nav-link active">Home</a>
+
+        </div>
+        <a href="{{route("loginPage")}}" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Login Now<i
+                class="fa fa-arrow-right ms-3"></i></a>
+    </div>
+</nav>
+<!-- Navbar End -->
+
+
+<!-- Carousel Start -->
+<div class="container-fluid p-0 mb-5">
+    <div class="owl-carousel header-carousel position-relative">
+        <div class="owl-carousel-item position-relative">
+            <img class="img-fluid" src="{{ asset('fontPage/img/carousel-1.jpg')}}" alt="">
+            <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                style="background: rgba(24, 29, 56, .7);">
+                <div class="container">
+                    <div class="row justify-content-start">
+                        <div class="col-sm-10 col-lg-8">
+                            <h5 class="text-primary text-uppercase text-white mb-3 animated slideInDown">Leading Nursing Education
+                            </h5>
+                            <h1 class="display-3 text-white animated slideInDown">Empowering Future Healthcare Heroes
+                            </h1>
+                            <p class="fs-5 text-white mb-4 pb-2">Join a community committed to excellence in nursing
+                                education. Gain the skills, knowledge, and confidence to make a difference in patient
+                                care worldwide.</p>
+                            <a href="#programs" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Explore
+                                Programs</a>
+                            <a href="{{ route('register.page') }}"
+                                class="btn btn-light py-md-3 px-md-5 animated slideInRight">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="owl-carousel-item position-relative">
+            <img class="img-fluid" src="{{ asset('fontPage/img/carousel-2.jpg')}}" alt="">
+            <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                style="background: rgba(24, 29, 56, .7);">
+                <div class="container">
+                    <div class="row justify-content-start">
+                        <div class="col-sm-10 col-lg-8">
+                            <h5 class="text-primary text-uppercase text-white mb-3 animated slideInDown">Start Your Nursing Journey
+                            </h5>
+                            <h1 class="display-3 text-white animated slideInDown">Learn. Care. Lead the Future of
+                                Healthcare</h1>
+                            <p class="fs-5 text-white mb-4 pb-2">Our accredited programs provide hands-on training,
+                                experienced faculty, and a supportive environment to launch your nursing career with
+                                confidence and purpose.</p>
+                            <a href="#aboutus" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Discover
+                                More</a>
+                            <a href="{{ route('register.page') }}"
+                                class="btn btn-light py-md-3 px-md-5 animated slideInRight">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Carousel End -->
+
+
+<!-- Service Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item text-center pt-3">
+                    <div class="p-4">
+                        <i class="fa fa-3x fa-user-md text-primary mb-4"></i>
+                        <h5 class="mb-3">Experienced Faculty</h5>
+                        <p>Learn from highly qualified nursing professionals with years of clinical and teaching
+                            experience.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item text-center pt-3">
+                    <div class="p-4">
+                        <i class="fa fa-3x fa-laptop-medical text-primary mb-4"></i>
+                        <h5 class="mb-3">Virtual Learning</h5>
+                        <p>Access lectures, resources, and simulations online for flexible, on-the-go learning
+                            opportunities.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-item text-center pt-3">
+                    <div class="p-4">
+                        <i class="fa fa-3x fa-briefcase-medical text-primary mb-4"></i>
+                        <h5 class="mb-3">Clinical Training</h5>
+                        <p>Hands-on hospital training and real-world case studies to prepare you for your nursing
+                            career.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="service-item text-center pt-3">
+                    <div class="p-4">
+                        <i class="fa fa-3x fa-book-open text-primary mb-4"></i>
+                        <h5 class="mb-3">Resourceful Library</h5>
+                        <p>Extensive library with the latest textbooks, journals, and research materials in nursing and
+                            healthcare.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Service End -->
+
+<!-- Interactive Cards Section Start -->
+<div class="container-xxl py-5" id="programs">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h6 class="section-title bg-white text-center text-primary px-3">Apply Now</h6>
+            <h1 class="mb-4">Join Our Programs</h1>
+        </div>
+        <div class="row g-4">
+            <!-- Card 1 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100 shadow-sm border-0 hover-shadow" style="transition: transform 0.3s;">
+                    <img src="{{asset("altImages/C4.jpg")}}" class="card-img-top" alt="Program 1">
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-primary">Program A</h5>
+                        <p class="card-text">Enhance your skills with our hands-on training program.</p>
+                        <a href="{{ route('register.page') }}" class="btn btn-primary mt-2">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100 shadow-sm border-0 hover-shadow" style="transition: transform 0.3s;">
+                    <img src="{{asset("altImages/C3.jpg")}}" class="card-img-top" alt="Program 2">
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-primary">Program B</h5>
+                        <p class="card-text">Join our internship program and gain real-world experience.</p>
+                        <a href="{{ route('register.page') }}" class="btn btn-primary mt-2">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100 shadow-sm border-0 hover-shadow" style="transition: transform 0.3s;">
+                    <img src="{{asset("altImages/C2.jpg")}}" class="card-img-top" alt="Program 3">
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-primary">Program C</h5>
+                        <p class="card-text">Accelerate your career with expert mentorship and guidance.</p>
+                        <a href="{{ route('register.page') }}" class="btn btn-primary mt-2">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100 shadow-sm border-0 hover-shadow" style="transition: transform 0.3s;">
+                    <img src="{{asset("altImages/C1.jpg")}}" class="card-img-top" alt="Program 4">
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-primary">Program D</h5>
+                        <p class="card-text">Start your journey with our foundation-level training.</p>
+                        <a href="{{ route('register.page') }}" class="btn btn-primary mt-2">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .hover-shadow:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+</style>
+
+
+
+
+<!-- About Start -->
+<div class="container-xxl py-5" id="aboutus">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                <div class="position-relative h-100">
+                    <img class="img-fluid position-absolute w-100 h-100" src="{{ asset('fontPage/img/newImage.jpg') }}"
+                        alt="Nursing College Image" style="object-fit: cover;">
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6>
+                <h1 class="mb-4">Welcome to Our Nursing College</h1>
+                <p class="mb-4">At our esteemed Nursing College, we are dedicated to empowering future healthcare
+                    leaders.
+                    Through a blend of academic excellence and hands-on clinical experience, we nurture compassionate,
+                    skilled, and ethical nursing professionals ready to serve globally.
+                </p>
+                <p class="mb-4">Our curriculum combines the latest in medical education, research-driven practices, and
+                    real-world hospital exposure, ensuring our graduates are ready to meet the evolving needs of the
+                    healthcare industry.</p>
+                <div class="row gy-2 gx-4 mb-4">
+                    <div class="col-sm-6">
+                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Qualified Faculty</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Advanced Laboratories</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Clinical Training Programs
+                        </p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Global Certifications</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Student-Centered Learning</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Modern Library Resources</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Team Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title bg-white text-center text-primary px-3">Meet Our Faculty</h6>
+            <h1 class="mb-5">Our Esteemed Nursing Educators</h1>
+        </div>
+        <div class="row g-4">
+            <!-- Instructor 1 -->
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="team-item bg-light">
+                    <div class="overflow-hidden">
+                        <img class="img-fluid" src="{{ asset('fontPage/img/team-1.jpg') }}" alt="Instructor 1">
+                    </div>
+                    <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                        <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                            <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center p-4">
+                        <h5 class="mb-0">Dr. Emily Carter</h5>
+                        <small>Professor of Nursing Sciences</small>
+                    </div>
+                </div>
+            </div>
+            <!-- Instructor 2 -->
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="team-item bg-light">
+                    <div class="overflow-hidden">
+                        <img class="img-fluid" src="{{ asset('fontPage/img/team-2.jpg') }}" alt="Instructor 2">
+                    </div>
+                    <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                        <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                            <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center p-4">
+                        <h5 class="mb-0">Ms. Olivia Brown</h5>
+                        <small>Clinical Nursing Instructor</small>
+                    </div>
+                </div>
+            </div>
+            <!-- Instructor 3 -->
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="team-item bg-light">
+                    <div class="overflow-hidden">
+                        <img class="img-fluid" src="{{ asset('fontPage/img/team-3.jpg') }}" alt="Instructor 3">
+                    </div>
+                    <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                        <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                            <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center p-4">
+                        <h5 class="mb-0">Mr. Ethan Wilson</h5>
+                        <small>Community Health Specialist</small>
+                    </div>
+                </div>
+            </div>
+            <!-- Instructor 4 -->
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="team-item bg-light">
+                    <div class="overflow-hidden">
+                        <img class="img-fluid" src="{{ asset('fontPage/img/team-4.jpg') }}" alt="Instructor 4">
+                    </div>
+                    <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                        <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                            <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center p-4">
+                        <h5 class="mb-0">Prof. Sophia Martinez</h5>
+                        <small>Head of Nursing Department</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Team End -->
+
+
+<!-- Testimonial Start -->
+{{-- <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container">
+        <div class="text-center">
+            <h6 class="section-title bg-white text-center text-primary px-3">Testimonial</h6>
+            <h1 class="mb-5">What Our Nursing Students Say!</h1>
+        </div>
+        <div class="owl-carousel testimonial-carousel position-relative">
+            <!-- Testimonial 1 -->
+            <div class="testimonial-item text-center">
+                <img class="border rounded-circle p-2 mx-auto mb-3" src="{{ asset('fontPage/img/testimonial-1.jpg') }}"
+                    style="width: 80px; height: 80px;">
+                <h5 class="mb-0">Sarah Johnson</h5>
+                <p>B.Sc Nursing Graduate</p>
+                <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">"The faculty here provided me with incredible guidance and support throughout my
+                        journey. I feel fully prepared to start my nursing career."</p>
+                </div>
+            </div>
+            <!-- Testimonial 2 -->
+            <div class="testimonial-item text-center">
+                <img class="border rounded-circle p-2 mx-auto mb-3" src="{{ asset('fontPage/img/testimonial-2.jpg') }}"
+                    style="width: 80px; height: 80px;">
+                <h5 class="mb-0">Daniel White</h5>
+                <p>Diploma in Nursing</p>
+                <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">"Hands-on clinical training and knowledgeable instructors made learning here an
+                        amazing experience. Highly recommend this college!"</p>
+                </div>
+            </div>
+            <!-- Testimonial 3 -->
+            <div class="testimonial-item text-center">
+                <img class="border rounded-circle p-2 mx-auto mb-3" src="{{ asset('fontPage/img/testimonial-3.jpg') }}"
+                    style="width: 80px; height: 80px;">
+                <h5 class="mb-0">Emily Brown</h5>
+                <p>Post Basic B.Sc Nursing</p>
+                <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">"The supportive environment and modern facilities made a huge difference in my
+                        learning. Proud to be part of this institution."</p>
+                </div>
+            </div>
+            <!-- Testimonial 4 -->
+            <div class="testimonial-item text-center">
+                <img class="border rounded-circle p-2 mx-auto mb-3" src="{{ asset('fontPage/img/testimonial-4.jpg') }}"
+                    style="width: 80px; height: 80px;">
+                <h5 class="mb-0">James Anderson</h5>
+                <p>M.Sc Nursing Student</p>
+                <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">"Advanced curriculum and experienced professors helped me deepen my knowledge in
+                        specialized nursing fields. A great place to study!"</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> --}}
+
+<!-- Testimonial End -->
+
+
+<!-- Footer Start -->
+<div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-white mb-3">Quick Link</h4>
+                <a class="btn btn-link" href="#aboutus">About Us</a>
+                <a class="btn btn-link" href="#contactus">Contact Us</a>
+                <a class="btn btn-link" href="">Privacy Policy</a>
+                <a class="btn btn-link" href="">Terms & Condition</a>
+                <a class="btn btn-link" href="">FAQs & Help</a>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-white mb-3" id="contactus">Contact</h4>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Main GT-Road Hassanabdal, Near Sage Leather Point, Hassanabdal, Punjab, Hassanabad, Pakistan</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0326 0011888</p>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i>hihs.hc2017@gmail.com</p>
+                <div class="d-flex pt-2">
+                    <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/p/Horizon-Institute-of-Health-Sciences-Hassanabdal-Chapter-100089866801262/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/hihs_edu.pk?igsh=MXAxcmljbGVkeG1qdQ=="><i class="fab fa-instagram" target="_blank"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/company/horizon-school-of-nursing-health-sciences/?originalSubdomain=pk" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-white mb-3">Gallery</h4>
+                <div class="row g-2 pt-2">
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="{{ asset('fontPage/img/course-1.jpg')}}" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="{{ asset('fontPage/img/course-2.jpg')}}" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="{{ asset('fontPage/img/course-3.jpg')}}" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="{{ asset('fontPage/img/course-2.jpg')}}" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="{{ asset('fontPage/img/course-3.jpg')}}" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="{{ asset('fontPage/img/course-1.jpg')}}" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-white mb-3">Newsletter</h4>
+                <p>Subscribe to our newsletter to stay updated.</p>
+                <div class="position-relative mx-auto" style="max-width: 400px;">
+                    <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                    <button type="button"
+                        class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="copyright">
+            <div class="row">
+
+                <div class="col-md-12 text-center ">
+                    <div class="footer-menu">
+                        <a href="">Home</a>
+                        <a href="">Cookies</a>
+                        <a href="">Help</a>
+                        <a href="">FQAs</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+
+<!-- Back to Top -->
+<a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+{{-- @include("frontPageInclude.footer") --}}
+@include("frontPage.footer")
