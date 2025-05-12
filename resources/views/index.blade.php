@@ -349,14 +349,14 @@
 
 
 <!-- Testimonial Start -->
-{{-- <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+<!-- <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
     <div class="container">
         <div class="text-center">
             <h6 class="section-title bg-white text-center text-primary px-3">Testimonial</h6>
             <h1 class="mb-5">What Our Nursing Students Say!</h1>
         </div>
         <div class="owl-carousel testimonial-carousel position-relative">
-            <!-- Testimonial 1 -->
+            
             <div class="testimonial-item text-center">
                 <img class="border rounded-circle p-2 mx-auto mb-3" src="{{ asset('fontPage/img/testimonial-1.jpg') }}"
                     style="width: 80px; height: 80px;">
@@ -367,7 +367,7 @@
                         journey. I feel fully prepared to start my nursing career."</p>
                 </div>
             </div>
-            <!-- Testimonial 2 -->
+            
             <div class="testimonial-item text-center">
                 <img class="border rounded-circle p-2 mx-auto mb-3" src="{{ asset('fontPage/img/testimonial-2.jpg') }}"
                     style="width: 80px; height: 80px;">
@@ -378,7 +378,7 @@
                         amazing experience. Highly recommend this college!"</p>
                 </div>
             </div>
-            <!-- Testimonial 3 -->
+            
             <div class="testimonial-item text-center">
                 <img class="border rounded-circle p-2 mx-auto mb-3" src="{{ asset('fontPage/img/testimonial-3.jpg') }}"
                     style="width: 80px; height: 80px;">
@@ -389,7 +389,7 @@
                         learning. Proud to be part of this institution."</p>
                 </div>
             </div>
-            <!-- Testimonial 4 -->
+            
             <div class="testimonial-item text-center">
                 <img class="border rounded-circle p-2 mx-auto mb-3" src="{{ asset('fontPage/img/testimonial-4.jpg') }}"
                     style="width: 80px; height: 80px;">
@@ -402,7 +402,7 @@
             </div>
         </div>
     </div>
-</div> --}}
+</div> -->
 
 <!-- Testimonial End -->
 
@@ -415,9 +415,6 @@
                 <h4 class="text-white mb-3">Quick Link</h4>
                 <a class="btn btn-link" href="#aboutus">About Us</a>
                 <a class="btn btn-link" href="#contactus">Contact Us</a>
-                <a class="btn btn-link" href="">Privacy Policy</a>
-                <a class="btn btn-link" href="">Terms & Condition</a>
-                <a class="btn btn-link" href="">FAQs & Help</a>
             </div>
             <div class="col-lg-3 col-md-6">
                 <h4 class="text-white mb-3" id="contactus">Contact</h4>
@@ -430,36 +427,18 @@
                     <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/company/horizon-school-of-nursing-health-sciences/?originalSubdomain=pk" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6">
-                <h4 class="text-white mb-3">Gallery</h4>
-                <div class="row g-2 pt-2">
-                    <div class="col-4">
-                        <img class="img-fluid bg-light p-1" src="{{ asset('fontPage/img/course-1.jpg')}}" alt="">
-                    </div>
-                    <div class="col-4">
-                        <img class="img-fluid bg-light p-1" src="{{ asset('fontPage/img/course-2.jpg')}}" alt="">
-                    </div>
-                    <div class="col-4">
-                        <img class="img-fluid bg-light p-1" src="{{ asset('fontPage/img/course-3.jpg')}}" alt="">
-                    </div>
-                    <div class="col-4">
-                        <img class="img-fluid bg-light p-1" src="{{ asset('fontPage/img/course-2.jpg')}}" alt="">
-                    </div>
-                    <div class="col-4">
-                        <img class="img-fluid bg-light p-1" src="{{ asset('fontPage/img/course-3.jpg')}}" alt="">
-                    </div>
-                    <div class="col-4">
-                        <img class="img-fluid bg-light p-1" src="{{ asset('fontPage/img/course-1.jpg')}}" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <h4 class="text-white mb-3">Newsletter</h4>
-                <p>Subscribe to our newsletter to stay updated.</p>
-                <div class="position-relative mx-auto" style="max-width: 400px;">
-                    <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                    <button type="button"
-                        class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+            <div class="col-lg-6 col-md-12">
+                <h4 class="text-white mb-3">Our Location</h4>
+                <div class="map-container" style="height: 300px;">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314.6027163989493!2d72.6707413!3d33.82256410000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df0717a74bc913%3A0x37570e2004138dbe!2sHorizon%20Institute%20of%20Health%20Sciences%20HC!5e0!3m2!1sen!2s!4v1747068224693!5m2!1sen!2s" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
                 </div>
             </div>
         </div>
@@ -470,10 +449,11 @@
 
                 <div class="col-md-12 text-center ">
                     <div class="footer-menu">
-                        <a href="">Home</a>
+                        <!-- <a href="">Home</a>
                         <a href="">Cookies</a>
                         <a href="">Help</a>
-                        <a href="">FQAs</a>
+                        <a href="">FQAs</a> -->
+                        ©️copyright Horizon Institute | Developed by Abdullah and Zainab
                     </div>
                 </div>
             </div>
