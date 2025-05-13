@@ -203,6 +203,13 @@
         transform: translateY(-5px);
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     }
+
+    .team-item img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        display: block;
+    }
 </style>
 
 
