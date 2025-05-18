@@ -24,8 +24,10 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto p-4 p-lg-0">
-            <a href="{{route("indexPage")}}" class="nav-item nav-link active">Home</a>
-
+            <a href="#aboutus" class="nav-item nav-link">About Us</a>
+            <a href="#programs" class="nav-item nav-link">Our Programs</a>
+            <a href="#faculty" class="nav-item nav-link">Our Faculty</a>
+            <a href="#contactus" class="nav-item nav-link">Contact Us</a>
         </div>
         <a href="{{route("loginPage")}}" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Login Now<i
                 class="fa fa-arrow-right ms-3"></i></a>
@@ -318,7 +320,7 @@
 <!-- Team Start -->
 <div class="container-xxl py-5">
     <div class="container">
-        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s" id="faculty">
             <h6 class="section-title bg-white text-center text-primary px-3">Meet Our Faculty</h6>
             <h1 class="mb-5">Our Esteemed Nursing Educators</h1>
         </div>
