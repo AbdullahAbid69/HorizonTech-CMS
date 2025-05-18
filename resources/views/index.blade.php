@@ -138,6 +138,25 @@
     background: #0d6efd !important;
     color: #fff !important;
 }
+.header-carousel .owl-carousel-item img {
+    max-height: 560px;
+    width: 100%;
+    object-fit: cover;
+}
+.header-carousel .owl-carousel-item .position-absolute {
+    min-height: 380px;
+    max-height: 560px;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 768px) {
+    .header-carousel .owl-carousel-item img,
+    .header-carousel .owl-carousel-item .position-absolute {
+        max-height: 380px;
+        height: 50vh;
+    }
+}
 </style>
 
 <!-- Carousel End -->
