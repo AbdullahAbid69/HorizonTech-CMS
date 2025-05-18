@@ -105,7 +105,7 @@ class UserController extends Controller
             Mail::to($user->email)->send(new SendMail($message, 'Welcome to Our Horizon Tech'));
             // dd($user);
 
-            return redirect()->back()->with('success', 'User registered successfully.');
+            return redirect()->route('loginPage')->with('success', 'Registration successful! Please login.');   
 
         } catch (\Exception $e) {
             return redirect()->back()

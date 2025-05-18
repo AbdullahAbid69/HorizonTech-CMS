@@ -119,6 +119,29 @@ class HomeController extends Controller
             for ($i = 1; $i <= 12; $i++) {
                 $monthlyAdmissions[] = $admissionsPerMonth->get($i, 0);
             }
+            // --- New Statistics for Charts ---
+            // Student Distribution by Program
+            $programStats = \App\Models\StudentUserDetials::with('program')
+                ->whereHas('program')
+                ->selectRaw('program_id, COUNT(*) as count')
+                ->groupBy('program_id')
+                ->get()
+                ->mapWithKeys(function($row) {
+                    return [$row->program ? $row->program->name : 'Other' => $row->count];
+                });
+            // Gender Ratio
+            $genderStats = \App\Models\StudentUserDetials::selectRaw('gender, COUNT(*) as count')
+                ->groupBy('gender')
+                ->pluck('count', 'gender');
+            // Instructor Distribution by Department
+            $instructorDeptStats = \App\Models\Instructor::with('department')
+                ->whereHas('department')
+                ->selectRaw('department_id, COUNT(*) as count')
+                ->groupBy('department_id')
+                ->get()
+                ->mapWithKeys(function($row) {
+                    return [$row->department ? $row->department->name : 'Other' => $row->count];
+                });
             return view('Admin.dashboard', compact(
                 'totalStudents',
                 'totalInstructors',
@@ -126,7 +149,10 @@ class HomeController extends Controller
                 'totalAlumni',
                 'totalPayments',
                 'upcomingEvents',
-                'monthlyAdmissions'
+                'monthlyAdmissions',
+                'programStats',
+                'genderStats',
+                'instructorDeptStats'
             ));
         } elseif ($role === "newStudent" || $role === "UnRegistered") {
             $role = Auth::user()->role;

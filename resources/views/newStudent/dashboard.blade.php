@@ -16,7 +16,7 @@
             <div class="alert alert-info">
                 <h4><i class="fas fa-clock"></i> Application Submitted</h4>
                 <p>Your application was submitted on
-                    <strong>{{ $application->created_at->format('d M Y \a\t h:i A') }}</strong>.
+                    <strong>{{ $application->created_at->format('d M Y') }}</strong>.
                 </p>
                 <p class="mb-0">Status: <span class="badge badge-warning">Pending Approval</span></p>
             </div>
@@ -87,7 +87,7 @@
                                     <p class="card-text">{{ Str::limit($program->description, 150) }}</p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <small class="text-muted">
-                                            <i class="fas fa-clock"></i> Duration: {{ $program->duration }}
+                                            <!-- <i class="fas fa-clock"></i> Duration: {{ $program->duration }} -->
                                         </small>
                                         {{-- <a href="#" class="btn btn-sm btn-outline-primary" data-toggle="modal"
                                             data-target="#programModal{{ $program->id }}">

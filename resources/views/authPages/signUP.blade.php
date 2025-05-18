@@ -18,7 +18,7 @@
         }
 
         .login-card {
-            background: #1C355E;
+            background: #0d6efd;
             border-top-right-radius: 20px;
             border-bottom-right-radius: 20px;
             box-shadow: 0 8px 20px rgba(27, 17, 85, 0.19);
@@ -78,7 +78,7 @@
         .btn-primary {
             background: rgb(255, 255, 255);
             border: none;
-            color: #1C355E;
+            color: #0d6efd;
         }
 
         .btn-primary:hover {
@@ -170,7 +170,7 @@
                 <div class="col-lg-6">
                     <label for="">Enter Profile Image</label>
                     <div class="form-group">
-                        <input type="file" name="photoOfStudent" class="form-control" required>
+                        <input type="file" name="photoOfStudent" class="form-control" required accept="image/*">
                     </div>
                 </div>
             </div>
@@ -274,6 +274,15 @@
                     field.element.style.backgroundColor = ''; // Reset background color
                 }
             }
+
+            const photoInput = document.querySelector('input[name="photoOfStudent"]');
+            photoInput.addEventListener('change', function(e) {
+                const file = this.files[0];
+                if (file && !file.type.match(/^image\/(jpeg|png|gif|bmp|webp)$/)) {
+                    toastr.error('Only image files (jpg, jpeg, png, gif, bmp, webp) are allowed.');
+                    this.value = '';
+                }
+            });
         });
     </script>
 

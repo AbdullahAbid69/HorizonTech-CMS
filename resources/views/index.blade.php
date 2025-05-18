@@ -86,6 +86,58 @@
     </div>
 </div>
 
+<style>
+/* HERO SECTION IMPROVEMENTS - BLACK OVERLAY */
+.header-carousel .owl-carousel-item .position-absolute {
+    background: rgba(0, 0, 0, 0.75) !important; /* Strong black overlay */
+}
+.header-carousel .container .row .col-sm-10.col-lg-8 {
+    background: rgba(0,0,0,0.10); /* Subtle black overlay for text clarity */
+    border-radius: 1rem;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+    padding: 2rem 2.5rem;
+}
+.header-carousel h5.text-primary,
+.header-carousel h1.display-3,
+.header-carousel p.fs-5 {
+    color: #fff !important;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.25);
+}
+.header-carousel h5.text-primary {
+    background: rgba(0,0,0,0.3);
+    display: inline-block;
+    padding: 0.25rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+.header-carousel .btn-primary {
+    background: #0d6efd !important;
+    color: #fff !important;
+    border: none;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(13,110,253,0.10);
+    transition: background 0.2s, color 0.2s;
+}
+.header-carousel .btn-primary:hover {
+    background: #084298 !important;
+    color: #fff !important;
+}
+.header-carousel .btn-light {
+    background: #fff !important;
+    color: #0d6efd !important;
+    border: none;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(13,110,253,0.10);
+    transition: background 0.2s, color 0.2s;
+}
+.header-carousel .btn-light:hover {
+    background: #0d6efd !important;
+    color: #fff !important;
+}
+</style>
+
 <!-- Carousel End -->
 
 

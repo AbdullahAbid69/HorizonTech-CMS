@@ -30,7 +30,7 @@ $(function() {
     }]
   };
   var multiLineData = {
-    labels: ["Red", "#1C355E", "Yellow", "Green", "Purple", "Orange"],
+    labels: ["Red", "#0d6efd", "Yellow", "Green", "Purple", "Orange"],
     datasets: [{
         label: 'Dataset 1',
         data: [12, 19, 3, 5, 2, 3],
@@ -102,7 +102,7 @@ $(function() {
     // These labels appear in the legend and in the tooltips when hovering different arcs
     labels: [
       'Pink',
-      '#1C355E',
+      '#0d6efd',
       'Yellow',
     ]
   };

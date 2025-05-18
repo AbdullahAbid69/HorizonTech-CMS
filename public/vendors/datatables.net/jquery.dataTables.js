@@ -115,7 +115,7 @@
 		 *      var oTable = $('#example').dataTable();
 		 *
 		 *      // Highlight every second row
-		 *      oTable.$('tr:odd').css('backgroundColor', '#1C355E');
+		 *      oTable.$('tr:odd').css('backgroundColor', '#0d6efd');
 		 *    } );
 		 *
 		 *  @example
@@ -125,7 +125,7 @@
 		 *      // Filter to rows with 'Webkit' in them, add a background colour and then
 		 *      // remove the filter, thus highlighting the 'Webkit' rows only.
 		 *      oTable.fnFilter('Webkit');
-		 *      oTable.$('tr', {"search": "applied"}).css('backgroundColor', '#1C355E');
+		 *      oTable.$('tr', {"search": "applied"}).css('backgroundColor', '#0d6efd');
 		 *      oTable.fnFilter('');
 		 *    } );
 		 */
@@ -12340,7 +12340,7 @@
 		 *          "targets": [3],
 		 *          "createdCell": function (td, cellData, rowData, row, col) {
 		 *            if ( cellData == "1.7" ) {
-		 *              $(td).css('color', '#1C355E')
+		 *              $(td).css('color', '#0d6efd')
 		 *            }
 		 *          }
 		 *        } ]

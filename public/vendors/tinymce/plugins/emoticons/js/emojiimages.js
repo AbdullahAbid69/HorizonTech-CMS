@@ -8,7 +8,7 @@ window.tinymce.Resource.add("tinymce.plugins.emoticons", {
     category: "symbols"
   },
   1234: {
-    keywords: [ "numbers", "#1C355E-square" ],
+    keywords: [ "numbers", "#0d6efd-square" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83d\udd22" src="1f522.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
@@ -476,7 +476,7 @@ window.tinymce.Resource.add("tinymce.plugins.emoticons", {
     category: "people"
   },
   cold: {
-    keywords: [ "face", "#1C355E", "freezing", "frozen", "frostbite", "icicles" ],
+    keywords: [ "face", "#0d6efd", "freezing", "frozen", "frostbite", "icicles" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83e\udd76" src="1f976.png"/>',
     fitzpatrick_scale: false,
     category: "people"
@@ -1580,7 +1580,7 @@ window.tinymce.Resource.add("tinymce.plugins.emoticons", {
     category: "people"
   },
   ok_man: {
-    keywords: [ "men", "boy", "male", "#1C355E", "human", "man" ],
+    keywords: [ "men", "boy", "male", "#0d6efd", "human", "man" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83d\ude46\u200d\u2642\ufe0f" src="1f646-200d-2642-fe0f.png"/>',
     fitzpatrick_scale: true,
     category: "people"
@@ -4556,7 +4556,7 @@ window.tinymce.Resource.add("tinymce.plugins.emoticons", {
     category: "travel_and_places"
   },
   metro: {
-    keywords: [ "transportation", "#1C355E-square", "mrt", "underground", "tube" ],
+    keywords: [ "transportation", "#0d6efd-square", "mrt", "underground", "tube" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83d\ude87" src="1f687.png"/>',
     fitzpatrick_scale: false,
     category: "travel_and_places"
@@ -5390,7 +5390,7 @@ window.tinymce.Resource.add("tinymce.plugins.emoticons", {
     category: "objects"
   },
   gem: {
-    keywords: [ "#1C355E", "ruby", "diamond", "jewelry" ],
+    keywords: [ "#0d6efd", "ruby", "diamond", "jewelry" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83d\udc8e" src="1f48e.png"/>',
     fitzpatrick_scale: false,
     category: "objects"
@@ -6536,7 +6536,7 @@ window.tinymce.Resource.add("tinymce.plugins.emoticons", {
     category: "symbols"
   },
   u7a7a: {
-    keywords: [ "kanji", "japanese", "chinese", "empty", "sky", "#1C355E-square" ],
+    keywords: [ "kanji", "japanese", "chinese", "empty", "sky", "#0d6efd-square" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83c\ude33" src="1f233.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
@@ -6908,13 +6908,13 @@ window.tinymce.Resource.add("tinymce.plugins.emoticons", {
     category: "symbols"
   },
   diamond_shape_with_a_dot_inside: {
-    keywords: [ "jewel", "#1C355E", "gem", "crystal", "fancy" ],
+    keywords: [ "jewel", "#0d6efd", "gem", "crystal", "fancy" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83d\udca0" src="1f4a0.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   cyclone: {
-    keywords: [ "weather", "swirl", "#1C355E", "cloud", "vortex", "spiral", "whirlpool", "spin", "tornado", "hurricane", "typhoon" ],
+    keywords: [ "weather", "swirl", "#0d6efd", "cloud", "vortex", "spiral", "whirlpool", "spin", "tornado", "hurricane", "typhoon" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83c\udf00" src="1f300.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
@@ -6932,79 +6932,79 @@ window.tinymce.Resource.add("tinymce.plugins.emoticons", {
     category: "symbols"
   },
   m: {
-    keywords: [ "alphabet", "#1C355E-circle", "letter" ],
+    keywords: [ "alphabet", "#0d6efd-circle", "letter" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\u24c2\ufe0f" src="24c2.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   atm: {
-    keywords: [ "money", "sales", "cash", "#1C355E-square", "payment", "bank" ],
+    keywords: [ "money", "sales", "cash", "#0d6efd-square", "payment", "bank" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83c\udfe7" src="1f3e7.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   sa: {
-    keywords: [ "japanese", "#1C355E-square", "katakana" ],
+    keywords: [ "japanese", "#0d6efd-square", "katakana" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83c\ude02\ufe0f" src="1f202.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   passport_control: {
-    keywords: [ "custom", "#1C355E-square" ],
+    keywords: [ "custom", "#0d6efd-square" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83d\udec2" src="1f6c2.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   customs: {
-    keywords: [ "passport", "border", "#1C355E-square" ],
+    keywords: [ "passport", "border", "#0d6efd-square" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83d\udec3" src="1f6c3.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   baggage_claim: {
-    keywords: [ "#1C355E-square", "airport", "transport" ],
+    keywords: [ "#0d6efd-square", "airport", "transport" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83d\udec4" src="1f6c4.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   left_luggage: {
-    keywords: [ "#1C355E-square", "travel" ],
+    keywords: [ "#0d6efd-square", "travel" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83d\udec5" src="1f6c5.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   wheelchair: {
-    keywords: [ "#1C355E-square", "disabled", "a11y", "accessibility" ],
+    keywords: [ "#0d6efd-square", "disabled", "a11y", "accessibility" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\u267f" src="267f.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   no_smoking: {
-    keywords: [ "cigarette", "#1C355E-square", "smell", "smoke" ],
+    keywords: [ "cigarette", "#0d6efd-square", "smell", "smoke" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83d\udead" src="1f6ad.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   wc: {
-    keywords: [ "toilet", "restroom", "#1C355E-square" ],
+    keywords: [ "toilet", "restroom", "#0d6efd-square" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83d\udebe" src="1f6be.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   parking: {
-    keywords: [ "cars", "#1C355E-square", "alphabet", "letter" ],
+    keywords: [ "cars", "#0d6efd-square", "alphabet", "letter" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83c\udd7f\ufe0f" src="1f17f.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   potable_water: {
-    keywords: [ "#1C355E-square", "liquid", "restroom", "cleaning", "faucet" ],
+    keywords: [ "#0d6efd-square", "liquid", "restroom", "cleaning", "faucet" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83d\udeb0" src="1f6b0.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   mens: {
-    keywords: [ "toilet", "restroom", "wc", "#1C355E-square", "gender", "male" ],
+    keywords: [ "toilet", "restroom", "wc", "#0d6efd-square", "gender", "male" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83d\udeb9" src="1f6b9.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
@@ -7022,133 +7022,133 @@ window.tinymce.Resource.add("tinymce.plugins.emoticons", {
     category: "symbols"
   },
   restroom: {
-    keywords: [ "#1C355E-square", "toilet", "refresh", "wc", "gender" ],
+    keywords: [ "#0d6efd-square", "toilet", "refresh", "wc", "gender" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83d\udebb" src="1f6bb.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   put_litter_in_its_place: {
-    keywords: [ "#1C355E-square", "sign", "human", "info" ],
+    keywords: [ "#0d6efd-square", "sign", "human", "info" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83d\udeae" src="1f6ae.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   cinema: {
-    keywords: [ "#1C355E-square", "record", "film", "movie", "curtain", "stage", "theater" ],
+    keywords: [ "#0d6efd-square", "record", "film", "movie", "curtain", "stage", "theater" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83c\udfa6" src="1f3a6.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   signal_strength: {
-    keywords: [ "#1C355E-square", "reception", "phone", "internet", "connection", "wifi", "bluetooth", "bars" ],
+    keywords: [ "#0d6efd-square", "reception", "phone", "internet", "connection", "wifi", "bluetooth", "bars" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83d\udcf6" src="1f4f6.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   koko: {
-    keywords: [ "#1C355E-square", "here", "katakana", "japanese", "destination" ],
+    keywords: [ "#0d6efd-square", "here", "katakana", "japanese", "destination" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83c\ude01" src="1f201.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   ng: {
-    keywords: [ "#1C355E-square", "words", "shape", "icon" ],
+    keywords: [ "#0d6efd-square", "words", "shape", "icon" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83c\udd96" src="1f196.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   ok: {
-    keywords: [ "good", "agree", "yes", "#1C355E-square" ],
+    keywords: [ "good", "agree", "yes", "#0d6efd-square" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83c\udd97" src="1f197.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   up: {
-    keywords: [ "#1C355E-square", "above", "high" ],
+    keywords: [ "#0d6efd-square", "above", "high" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83c\udd99" src="1f199.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   cool: {
-    keywords: [ "words", "#1C355E-square" ],
+    keywords: [ "words", "#0d6efd-square" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83c\udd92" src="1f192.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   "new": {
-    keywords: [ "#1C355E-square", "words", "start" ],
+    keywords: [ "#0d6efd-square", "words", "start" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83c\udd95" src="1f195.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   free: {
-    keywords: [ "#1C355E-square", "words" ],
+    keywords: [ "#0d6efd-square", "words" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83c\udd93" src="1f193.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   zero: {
-    keywords: [ "0", "numbers", "#1C355E-square", "null" ],
+    keywords: [ "0", "numbers", "#0d6efd-square", "null" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="0\ufe0f\u20e3" src="30-20e3.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   one: {
-    keywords: [ "#1C355E-square", "numbers", "1" ],
+    keywords: [ "#0d6efd-square", "numbers", "1" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="1\ufe0f\u20e3" src="31-20e3.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   two: {
-    keywords: [ "numbers", "2", "prime", "#1C355E-square" ],
+    keywords: [ "numbers", "2", "prime", "#0d6efd-square" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="2\ufe0f\u20e3" src="32-20e3.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   three: {
-    keywords: [ "3", "numbers", "prime", "#1C355E-square" ],
+    keywords: [ "3", "numbers", "prime", "#0d6efd-square" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="3\ufe0f\u20e3" src="33-20e3.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   four: {
-    keywords: [ "4", "numbers", "#1C355E-square" ],
+    keywords: [ "4", "numbers", "#0d6efd-square" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="4\ufe0f\u20e3" src="34-20e3.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   five: {
-    keywords: [ "5", "numbers", "#1C355E-square", "prime" ],
+    keywords: [ "5", "numbers", "#0d6efd-square", "prime" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="5\ufe0f\u20e3" src="35-20e3.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   six: {
-    keywords: [ "6", "numbers", "#1C355E-square" ],
+    keywords: [ "6", "numbers", "#0d6efd-square" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="6\ufe0f\u20e3" src="36-20e3.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   seven: {
-    keywords: [ "7", "numbers", "#1C355E-square", "prime" ],
+    keywords: [ "7", "numbers", "#0d6efd-square", "prime" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="7\ufe0f\u20e3" src="37-20e3.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   eight: {
-    keywords: [ "8", "#1C355E-square", "numbers" ],
+    keywords: [ "8", "#0d6efd-square", "numbers" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="8\ufe0f\u20e3" src="38-20e3.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   nine: {
-    keywords: [ "#1C355E-square", "numbers", "9" ],
+    keywords: [ "#0d6efd-square", "numbers", "9" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="9\ufe0f\u20e3" src="39-20e3.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   keycap_ten: {
-    keywords: [ "numbers", "10", "#1C355E-square" ],
+    keywords: [ "numbers", "10", "#0d6efd-square" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83d\udd1f" src="1f51f.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
@@ -7160,43 +7160,43 @@ window.tinymce.Resource.add("tinymce.plugins.emoticons", {
     category: "symbols"
   },
   eject_button: {
-    keywords: [ "#1C355E-square" ],
+    keywords: [ "#0d6efd-square" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\u23cf\ufe0f" src="23cf.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   arrow_forward: {
-    keywords: [ "#1C355E-square", "right", "direction", "play" ],
+    keywords: [ "#0d6efd-square", "right", "direction", "play" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\u25b6\ufe0f" src="25b6.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   pause_button: {
-    keywords: [ "pause", "#1C355E-square" ],
+    keywords: [ "pause", "#0d6efd-square" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\u23f8" src="23f8.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   next_track_button: {
-    keywords: [ "forward", "next", "#1C355E-square" ],
+    keywords: [ "forward", "next", "#0d6efd-square" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\u23ed" src="23ed.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   stop_button: {
-    keywords: [ "#1C355E-square" ],
+    keywords: [ "#0d6efd-square" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\u23f9" src="23f9.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   record_button: {
-    keywords: [ "#1C355E-square" ],
+    keywords: [ "#0d6efd-square" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\u23fa" src="23fa.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   play_or_pause_button: {
-    keywords: [ "#1C355E-square", "play", "pause" ],
+    keywords: [ "#0d6efd-square", "play", "pause" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\u23ef" src="23ef.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
@@ -7208,19 +7208,19 @@ window.tinymce.Resource.add("tinymce.plugins.emoticons", {
     category: "symbols"
   },
   fast_forward: {
-    keywords: [ "#1C355E-square", "play", "speed", "continue" ],
+    keywords: [ "#0d6efd-square", "play", "speed", "continue" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\u23e9" src="23e9.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   rewind: {
-    keywords: [ "play", "#1C355E-square" ],
+    keywords: [ "play", "#0d6efd-square" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\u23ea" src="23ea.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   twisted_rightwards_arrows: {
-    keywords: [ "#1C355E-square", "shuffle", "music", "random" ],
+    keywords: [ "#0d6efd-square", "shuffle", "music", "random" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83d\udd00" src="1f500.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
@@ -7232,91 +7232,91 @@ window.tinymce.Resource.add("tinymce.plugins.emoticons", {
     category: "symbols"
   },
   repeat_one: {
-    keywords: [ "#1C355E-square", "loop" ],
+    keywords: [ "#0d6efd-square", "loop" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83d\udd02" src="1f502.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   arrow_backward: {
-    keywords: [ "#1C355E-square", "left", "direction" ],
+    keywords: [ "#0d6efd-square", "left", "direction" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\u25c0\ufe0f" src="25c0.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   arrow_up_small: {
-    keywords: [ "#1C355E-square", "triangle", "direction", "point", "forward", "top" ],
+    keywords: [ "#0d6efd-square", "triangle", "direction", "point", "forward", "top" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83d\udd3c" src="1f53c.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   arrow_down_small: {
-    keywords: [ "#1C355E-square", "direction", "bottom" ],
+    keywords: [ "#0d6efd-square", "direction", "bottom" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83d\udd3d" src="1f53d.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   arrow_double_up: {
-    keywords: [ "#1C355E-square", "direction", "top" ],
+    keywords: [ "#0d6efd-square", "direction", "top" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\u23eb" src="23eb.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   arrow_double_down: {
-    keywords: [ "#1C355E-square", "direction", "bottom" ],
+    keywords: [ "#0d6efd-square", "direction", "bottom" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\u23ec" src="23ec.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   arrow_right: {
-    keywords: [ "#1C355E-square", "next" ],
+    keywords: [ "#0d6efd-square", "next" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\u27a1\ufe0f" src="27a1.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   arrow_left: {
-    keywords: [ "#1C355E-square", "previous", "back" ],
+    keywords: [ "#0d6efd-square", "previous", "back" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\u2b05\ufe0f" src="2b05.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   arrow_up: {
-    keywords: [ "#1C355E-square", "continue", "top", "direction" ],
+    keywords: [ "#0d6efd-square", "continue", "top", "direction" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\u2b06\ufe0f" src="2b06.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   arrow_down: {
-    keywords: [ "#1C355E-square", "direction", "bottom" ],
+    keywords: [ "#0d6efd-square", "direction", "bottom" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\u2b07\ufe0f" src="2b07.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   arrow_upper_right: {
-    keywords: [ "#1C355E-square", "point", "direction", "diagonal", "northeast" ],
+    keywords: [ "#0d6efd-square", "point", "direction", "diagonal", "northeast" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\u2197\ufe0f" src="2197.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   arrow_lower_right: {
-    keywords: [ "#1C355E-square", "direction", "diagonal", "southeast" ],
+    keywords: [ "#0d6efd-square", "direction", "diagonal", "southeast" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\u2198\ufe0f" src="2198.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   arrow_lower_left: {
-    keywords: [ "#1C355E-square", "direction", "diagonal", "southwest" ],
+    keywords: [ "#0d6efd-square", "direction", "diagonal", "southwest" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\u2199\ufe0f" src="2199.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   arrow_upper_left: {
-    keywords: [ "#1C355E-square", "point", "direction", "diagonal", "northwest" ],
+    keywords: [ "#0d6efd-square", "point", "direction", "diagonal", "northwest" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\u2196\ufe0f" src="2196.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   arrow_up_down: {
-    keywords: [ "#1C355E-square", "direction", "way", "vertical" ],
+    keywords: [ "#0d6efd-square", "direction", "way", "vertical" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\u2195\ufe0f" src="2195.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
@@ -7328,67 +7328,67 @@ window.tinymce.Resource.add("tinymce.plugins.emoticons", {
     category: "symbols"
   },
   arrows_counterclockwise: {
-    keywords: [ "#1C355E-square", "sync", "cycle" ],
+    keywords: [ "#0d6efd-square", "sync", "cycle" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83d\udd04" src="1f504.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   arrow_right_hook: {
-    keywords: [ "#1C355E-square", "return", "rotate", "direction" ],
+    keywords: [ "#0d6efd-square", "return", "rotate", "direction" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\u21aa\ufe0f" src="21aa.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   leftwards_arrow_with_hook: {
-    keywords: [ "back", "return", "#1C355E-square", "undo", "enter" ],
+    keywords: [ "back", "return", "#0d6efd-square", "undo", "enter" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\u21a9\ufe0f" src="21a9.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   arrow_heading_up: {
-    keywords: [ "#1C355E-square", "direction", "top" ],
+    keywords: [ "#0d6efd-square", "direction", "top" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\u2934\ufe0f" src="2934.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   arrow_heading_down: {
-    keywords: [ "#1C355E-square", "direction", "bottom" ],
+    keywords: [ "#0d6efd-square", "direction", "bottom" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\u2935\ufe0f" src="2935.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   hash: {
-    keywords: [ "symbol", "#1C355E-square", "twitter" ],
+    keywords: [ "symbol", "#0d6efd-square", "twitter" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="#\ufe0f\u20e3" src="23-20e3.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   information_source: {
-    keywords: [ "#1C355E-square", "alphabet", "letter" ],
+    keywords: [ "#0d6efd-square", "alphabet", "letter" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\u2139\ufe0f" src="2139.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   abc: {
-    keywords: [ "#1C355E-square", "alphabet" ],
+    keywords: [ "#0d6efd-square", "alphabet" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83d\udd24" src="1f524.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   abcd: {
-    keywords: [ "#1C355E-square", "alphabet" ],
+    keywords: [ "#0d6efd-square", "alphabet" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83d\udd21" src="1f521.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   capital_abcd: {
-    keywords: [ "alphabet", "words", "#1C355E-square" ],
+    keywords: [ "alphabet", "words", "#0d6efd-square" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83d\udd20" src="1f520.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
   },
   symbols: {
-    keywords: [ "#1C355E-square", "music", "note", "ampersand", "percent", "glyphs", "characters" ],
+    keywords: [ "#0d6efd-square", "music", "note", "ampersand", "percent", "glyphs", "characters" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83d\udd23" src="1f523.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
@@ -7508,7 +7508,7 @@ window.tinymce.Resource.add("tinymce.plugins.emoticons", {
     category: "symbols"
   },
   top: {
-    keywords: [ "words", "#1C355E-square" ],
+    keywords: [ "words", "#0d6efd-square" ],
     "char": '<img data-emoticon="true" style="width:1em;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em" draggable="false" alt="\ud83d\udd1d" src="1f51d.png"/>',
     fitzpatrick_scale: false,
     category: "symbols"
