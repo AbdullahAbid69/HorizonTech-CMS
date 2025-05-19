@@ -112,7 +112,6 @@
             <input type="hidden" name="status" value="active">
             <div class="row g-4">
                 <div class="col-lg-12">
-                    <h3 class="text-center my-3">Basic Information</h3>
 
                     {{-- Display all validation errors --}}
                     @if ($errors->any())
