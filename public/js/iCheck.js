@@ -2,17 +2,17 @@
   'use strict';
   $(function() {
     $('.icheck input').iCheck({
-      checkboxClass: 'icheckbox_minimal-#0d6efd',
+      checkboxClass: 'icheckbox_minimal-#1C355E',
       radioClass: 'iradio_minimal',
       increaseArea: '20%'
     });
     $('.icheck-square input').iCheck({
-      checkboxClass: 'icheckbox_square-#0d6efd',
+      checkboxClass: 'icheckbox_square-#1C355E',
       radioClass: 'iradio_square',
       increaseArea: '20%'
     });
     $('.icheck-flat input').iCheck({
-      checkboxClass: 'icheckbox_flat-#0d6efd',
+      checkboxClass: 'icheckbox_flat-#1C355E',
       radioClass: 'iradio_flat',
       increaseArea: '20%'
     });
@@ -24,7 +24,7 @@
 
       label.remove();
       self.iCheck({
-        checkboxClass: 'icheckbox_line-#0d6efd',
+        checkboxClass: 'icheckbox_line-#1C355E',
         radioClass: 'iradio_line',
         insert: '<div class="icheck_line-icon"></div>' + label_text
       });

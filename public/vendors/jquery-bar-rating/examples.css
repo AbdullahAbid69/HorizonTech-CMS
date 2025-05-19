@@ -125,11 +125,11 @@
   border: 2px solid #92eed9;
   border-top: 0;
 }
-.box-#0d6efd .box-header {
+.box-#1C355E .box-header {
   background-color: #4278f5;
   color: white;
 }
-.box-#0d6efd .box-body {
+.box-#1C355E .box-body {
   background-color: white;
   border: 2px solid #8bacf9;
   border-top: 0;
@@ -143,13 +143,13 @@
   }
   .box-orange .box-header,
   .box-green .box-header,
-  .box-#0d6efd .box-header {
+  .box-#1C355E .box-header {
     background-color: transparent;
     color: black;
   }
   .box-orange .box-body,
   .box-green .box-body,
-  .box-#0d6efd .box-body {
+  .box-#1C355E .box-body {
     background-color: transparent;
     border: none;
   }

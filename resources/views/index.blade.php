@@ -27,7 +27,6 @@
             <a href="#aboutus" class="nav-item nav-link">About Us</a>
             <a href="#programs" class="nav-item nav-link">Our Programs</a>
             <a href="#faculty" class="nav-item nav-link">Our Faculty</a>
-            <a href="#contactus" class="nav-item nav-link">Contact Us</a>
         </div>
         <a href="{{route("loginPage")}}" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Login Now<i
                 class="fa fa-arrow-right ms-3"></i></a>
@@ -115,7 +114,7 @@
     margin-bottom: 1rem;
 }
 .header-carousel .btn-primary {
-    background: #0d6efd !important;
+    background: #1C355E !important;
     color: #fff !important;
     border: none;
     font-weight: 600;
@@ -128,14 +127,14 @@
 }
 .header-carousel .btn-light {
     background: #fff !important;
-    color: #0d6efd !important;
+    color: #1C355E !important;
     border: none;
     font-weight: 600;
     box-shadow: 0 2px 8px rgba(13,110,253,0.10);
     transition: background 0.2s, color 0.2s;
 }
 .header-carousel .btn-light:hover {
-    background: #0d6efd !important;
+    background: #1C355E !important;
     color: #fff !important;
 }
 .header-carousel .owl-carousel-item img {
@@ -226,7 +225,7 @@
                     <img src="{{asset("altImages/C4.jpg")}}" class="card-img-top" alt="Program 1">
                     <div class="card-body text-center">
                         <h5 class="card-title text-primary">BS Diet & Nutrition</h5>
-                        <p class="card-text">Transportation and hostel facilities available.</p>
+                        <p class="card-text"></p>
                         <a href="{{ route('register.page') }}" class="btn btn-primary mt-2">Apply Now</a>
                     </div>
                 </div>
@@ -238,7 +237,7 @@
                     <img src="{{asset("altImages/C3.jpg")}}" class="card-img-top" alt="Program 2">
                     <div class="card-body text-center">
                         <h5 class="card-title text-primary">BS Nursing</h5>
-                        <p class="card-text">Transportation and hostel facilities available.</p>
+                        <p class="card-text"></p>
                         <a href="{{ route('register.page') }}" class="btn btn-primary mt-2">Apply Now</a>
                     </div>
                 </div>
@@ -250,7 +249,7 @@
                     <img src="{{asset("altImages/C2.jpg")}}" class="card-img-top" alt="Program 3">
                     <div class="card-body text-center">
                         <h5 class="card-title text-primary">BS Medical Laboratory Technology</h5>
-                        <p class="card-text">Transportation and hostel facilities available.</p>
+                        <p class="card-text"></p>
                         <a href="{{ route('register.page') }}" class="btn btn-primary mt-2">Apply Now</a>
                     </div>
                 </div>
@@ -262,7 +261,7 @@
                     <img src="{{asset("altImages/C1.jpg")}}" class="card-img-top" alt="Program 4">
                     <div class="card-body text-center">
                         <h5 class="card-title text-primary">Doctor of Physical Therapy</h5>
-                        <p class="card-text">Transportation and hostel facilities available.</p>
+                        <p class="card-text"></p>
                         <a href="{{ route('register.page') }}" class="btn btn-primary mt-2">Apply Now</a>
                     </div>
                 </div>

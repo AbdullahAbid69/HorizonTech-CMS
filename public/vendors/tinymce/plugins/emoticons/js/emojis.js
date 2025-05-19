@@ -463,7 +463,7 @@ window.tinymce.Resource.add("tinymce.plugins.emoticons", {
     category: "people"
   },
   cold: {
-    keywords: [ "face", "#0d6efd", "freezing", "frozen", "frostbite", "icicles" ],
+    keywords: [ "face", "#1C355E", "freezing", "frozen", "frostbite", "icicles" ],
     "char": "\ud83e\udd76",
     fitzpatrick_scale: false,
     category: "people"
@@ -1567,7 +1567,7 @@ window.tinymce.Resource.add("tinymce.plugins.emoticons", {
     category: "people"
   },
   ok_man: {
-    keywords: [ "men", "boy", "male", "#0d6efd", "human", "man" ],
+    keywords: [ "men", "boy", "male", "#1C355E", "human", "man" ],
     "char": "\ud83d\ude46\u200d\u2642\ufe0f",
     fitzpatrick_scale: true,
     category: "people"
@@ -4543,7 +4543,7 @@ window.tinymce.Resource.add("tinymce.plugins.emoticons", {
     category: "travel_and_places"
   },
   metro: {
-    keywords: [ "transportation", "#0d6efd-square", "mrt", "underground", "tube" ],
+    keywords: [ "transportation", "#1C355E-square", "mrt", "underground", "tube" ],
     "char": "\ud83d\ude87",
     fitzpatrick_scale: false,
     category: "travel_and_places"
@@ -5377,7 +5377,7 @@ window.tinymce.Resource.add("tinymce.plugins.emoticons", {
     category: "objects"
   },
   gem: {
-    keywords: [ "#0d6efd", "ruby", "diamond", "jewelry" ],
+    keywords: [ "#1C355E", "ruby", "diamond", "jewelry" ],
     "char": "\ud83d\udc8e",
     fitzpatrick_scale: false,
     category: "objects"
@@ -6523,7 +6523,7 @@ window.tinymce.Resource.add("tinymce.plugins.emoticons", {
     category: "symbols"
   },
   u7a7a: {
-    keywords: [ "kanji", "japanese", "chinese", "empty", "sky", "#0d6efd-square" ],
+    keywords: [ "kanji", "japanese", "chinese", "empty", "sky", "#1C355E-square" ],
     "char": "\ud83c\ude33",
     fitzpatrick_scale: false,
     category: "symbols"
@@ -6901,13 +6901,13 @@ window.tinymce.Resource.add("tinymce.plugins.emoticons", {
     category: "symbols"
   },
   diamond_shape_with_a_dot_inside: {
-    keywords: [ "jewel", "#0d6efd", "gem", "crystal", "fancy" ],
+    keywords: [ "jewel", "#1C355E", "gem", "crystal", "fancy" ],
     "char": "\ud83d\udca0",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   cyclone: {
-    keywords: [ "weather", "swirl", "#0d6efd", "cloud", "vortex", "spiral", "whirlpool", "spin", "tornado", "hurricane", "typhoon" ],
+    keywords: [ "weather", "swirl", "#1C355E", "cloud", "vortex", "spiral", "whirlpool", "spin", "tornado", "hurricane", "typhoon" ],
     "char": "\ud83c\udf00",
     fitzpatrick_scale: false,
     category: "symbols"
@@ -6925,79 +6925,79 @@ window.tinymce.Resource.add("tinymce.plugins.emoticons", {
     category: "symbols"
   },
   m: {
-    keywords: [ "alphabet", "#0d6efd-circle", "letter" ],
+    keywords: [ "alphabet", "#1C355E-circle", "letter" ],
     "char": "\u24c2\ufe0f",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   atm: {
-    keywords: [ "money", "sales", "cash", "#0d6efd-square", "payment", "bank" ],
+    keywords: [ "money", "sales", "cash", "#1C355E-square", "payment", "bank" ],
     "char": "\ud83c\udfe7",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   sa: {
-    keywords: [ "japanese", "#0d6efd-square", "katakana" ],
+    keywords: [ "japanese", "#1C355E-square", "katakana" ],
     "char": "\ud83c\ude02\ufe0f",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   passport_control: {
-    keywords: [ "custom", "#0d6efd-square" ],
+    keywords: [ "custom", "#1C355E-square" ],
     "char": "\ud83d\udec2",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   customs: {
-    keywords: [ "passport", "border", "#0d6efd-square" ],
+    keywords: [ "passport", "border", "#1C355E-square" ],
     "char": "\ud83d\udec3",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   baggage_claim: {
-    keywords: [ "#0d6efd-square", "airport", "transport" ],
+    keywords: [ "#1C355E-square", "airport", "transport" ],
     "char": "\ud83d\udec4",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   left_luggage: {
-    keywords: [ "#0d6efd-square", "travel" ],
+    keywords: [ "#1C355E-square", "travel" ],
     "char": "\ud83d\udec5",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   wheelchair: {
-    keywords: [ "#0d6efd-square", "disabled", "a11y", "accessibility" ],
+    keywords: [ "#1C355E-square", "disabled", "a11y", "accessibility" ],
     "char": "\u267f",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   no_smoking: {
-    keywords: [ "cigarette", "#0d6efd-square", "smell", "smoke" ],
+    keywords: [ "cigarette", "#1C355E-square", "smell", "smoke" ],
     "char": "\ud83d\udead",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   wc: {
-    keywords: [ "toilet", "restroom", "#0d6efd-square" ],
+    keywords: [ "toilet", "restroom", "#1C355E-square" ],
     "char": "\ud83d\udebe",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   parking: {
-    keywords: [ "cars", "#0d6efd-square", "alphabet", "letter" ],
+    keywords: [ "cars", "#1C355E-square", "alphabet", "letter" ],
     "char": "\ud83c\udd7f\ufe0f",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   potable_water: {
-    keywords: [ "#0d6efd-square", "liquid", "restroom", "cleaning", "faucet" ],
+    keywords: [ "#1C355E-square", "liquid", "restroom", "cleaning", "faucet" ],
     "char": "\ud83d\udeb0",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   mens: {
-    keywords: [ "toilet", "restroom", "wc", "#0d6efd-square", "gender", "male" ],
+    keywords: [ "toilet", "restroom", "wc", "#1C355E-square", "gender", "male" ],
     "char": "\ud83d\udeb9",
     fitzpatrick_scale: false,
     category: "symbols"
@@ -7015,133 +7015,133 @@ window.tinymce.Resource.add("tinymce.plugins.emoticons", {
     category: "symbols"
   },
   restroom: {
-    keywords: [ "#0d6efd-square", "toilet", "refresh", "wc", "gender" ],
+    keywords: [ "#1C355E-square", "toilet", "refresh", "wc", "gender" ],
     "char": "\ud83d\udebb",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   put_litter_in_its_place: {
-    keywords: [ "#0d6efd-square", "sign", "human", "info" ],
+    keywords: [ "#1C355E-square", "sign", "human", "info" ],
     "char": "\ud83d\udeae",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   cinema: {
-    keywords: [ "#0d6efd-square", "record", "film", "movie", "curtain", "stage", "theater" ],
+    keywords: [ "#1C355E-square", "record", "film", "movie", "curtain", "stage", "theater" ],
     "char": "\ud83c\udfa6",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   signal_strength: {
-    keywords: [ "#0d6efd-square", "reception", "phone", "internet", "connection", "wifi", "bluetooth", "bars" ],
+    keywords: [ "#1C355E-square", "reception", "phone", "internet", "connection", "wifi", "bluetooth", "bars" ],
     "char": "\ud83d\udcf6",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   koko: {
-    keywords: [ "#0d6efd-square", "here", "katakana", "japanese", "destination" ],
+    keywords: [ "#1C355E-square", "here", "katakana", "japanese", "destination" ],
     "char": "\ud83c\ude01",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   ng: {
-    keywords: [ "#0d6efd-square", "words", "shape", "icon" ],
+    keywords: [ "#1C355E-square", "words", "shape", "icon" ],
     "char": "\ud83c\udd96",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   ok: {
-    keywords: [ "good", "agree", "yes", "#0d6efd-square" ],
+    keywords: [ "good", "agree", "yes", "#1C355E-square" ],
     "char": "\ud83c\udd97",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   up: {
-    keywords: [ "#0d6efd-square", "above", "high" ],
+    keywords: [ "#1C355E-square", "above", "high" ],
     "char": "\ud83c\udd99",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   cool: {
-    keywords: [ "words", "#0d6efd-square" ],
+    keywords: [ "words", "#1C355E-square" ],
     "char": "\ud83c\udd92",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   "new": {
-    keywords: [ "#0d6efd-square", "words", "start" ],
+    keywords: [ "#1C355E-square", "words", "start" ],
     "char": "\ud83c\udd95",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   free: {
-    keywords: [ "#0d6efd-square", "words" ],
+    keywords: [ "#1C355E-square", "words" ],
     "char": "\ud83c\udd93",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   zero: {
-    keywords: [ "0", "numbers", "#0d6efd-square", "null" ],
+    keywords: [ "0", "numbers", "#1C355E-square", "null" ],
     "char": "0\ufe0f\u20e3",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   one: {
-    keywords: [ "#0d6efd-square", "numbers", "1" ],
+    keywords: [ "#1C355E-square", "numbers", "1" ],
     "char": "1\ufe0f\u20e3",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   two: {
-    keywords: [ "numbers", "2", "prime", "#0d6efd-square" ],
+    keywords: [ "numbers", "2", "prime", "#1C355E-square" ],
     "char": "2\ufe0f\u20e3",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   three: {
-    keywords: [ "3", "numbers", "prime", "#0d6efd-square" ],
+    keywords: [ "3", "numbers", "prime", "#1C355E-square" ],
     "char": "3\ufe0f\u20e3",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   four: {
-    keywords: [ "4", "numbers", "#0d6efd-square" ],
+    keywords: [ "4", "numbers", "#1C355E-square" ],
     "char": "4\ufe0f\u20e3",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   five: {
-    keywords: [ "5", "numbers", "#0d6efd-square", "prime" ],
+    keywords: [ "5", "numbers", "#1C355E-square", "prime" ],
     "char": "5\ufe0f\u20e3",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   six: {
-    keywords: [ "6", "numbers", "#0d6efd-square" ],
+    keywords: [ "6", "numbers", "#1C355E-square" ],
     "char": "6\ufe0f\u20e3",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   seven: {
-    keywords: [ "7", "numbers", "#0d6efd-square", "prime" ],
+    keywords: [ "7", "numbers", "#1C355E-square", "prime" ],
     "char": "7\ufe0f\u20e3",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   eight: {
-    keywords: [ "8", "#0d6efd-square", "numbers" ],
+    keywords: [ "8", "#1C355E-square", "numbers" ],
     "char": "8\ufe0f\u20e3",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   nine: {
-    keywords: [ "#0d6efd-square", "numbers", "9" ],
+    keywords: [ "#1C355E-square", "numbers", "9" ],
     "char": "9\ufe0f\u20e3",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   keycap_ten: {
-    keywords: [ "numbers", "10", "#0d6efd-square" ],
+    keywords: [ "numbers", "10", "#1C355E-square" ],
     "char": "\ud83d\udd1f",
     fitzpatrick_scale: false,
     category: "symbols"
@@ -7153,49 +7153,49 @@ window.tinymce.Resource.add("tinymce.plugins.emoticons", {
     category: "symbols"
   },
   1234: {
-    keywords: [ "numbers", "#0d6efd-square" ],
+    keywords: [ "numbers", "#1C355E-square" ],
     "char": "\ud83d\udd22",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   eject_button: {
-    keywords: [ "#0d6efd-square" ],
+    keywords: [ "#1C355E-square" ],
     "char": "\u23cf\ufe0f",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   arrow_forward: {
-    keywords: [ "#0d6efd-square", "right", "direction", "play" ],
+    keywords: [ "#1C355E-square", "right", "direction", "play" ],
     "char": "\u25b6\ufe0f",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   pause_button: {
-    keywords: [ "pause", "#0d6efd-square" ],
+    keywords: [ "pause", "#1C355E-square" ],
     "char": "\u23f8",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   next_track_button: {
-    keywords: [ "forward", "next", "#0d6efd-square" ],
+    keywords: [ "forward", "next", "#1C355E-square" ],
     "char": "\u23ed",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   stop_button: {
-    keywords: [ "#0d6efd-square" ],
+    keywords: [ "#1C355E-square" ],
     "char": "\u23f9",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   record_button: {
-    keywords: [ "#0d6efd-square" ],
+    keywords: [ "#1C355E-square" ],
     "char": "\u23fa",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   play_or_pause_button: {
-    keywords: [ "#0d6efd-square", "play", "pause" ],
+    keywords: [ "#1C355E-square", "play", "pause" ],
     "char": "\u23ef",
     fitzpatrick_scale: false,
     category: "symbols"
@@ -7207,19 +7207,19 @@ window.tinymce.Resource.add("tinymce.plugins.emoticons", {
     category: "symbols"
   },
   fast_forward: {
-    keywords: [ "#0d6efd-square", "play", "speed", "continue" ],
+    keywords: [ "#1C355E-square", "play", "speed", "continue" ],
     "char": "\u23e9",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   rewind: {
-    keywords: [ "play", "#0d6efd-square" ],
+    keywords: [ "play", "#1C355E-square" ],
     "char": "\u23ea",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   twisted_rightwards_arrows: {
-    keywords: [ "#0d6efd-square", "shuffle", "music", "random" ],
+    keywords: [ "#1C355E-square", "shuffle", "music", "random" ],
     "char": "\ud83d\udd00",
     fitzpatrick_scale: false,
     category: "symbols"
@@ -7231,91 +7231,91 @@ window.tinymce.Resource.add("tinymce.plugins.emoticons", {
     category: "symbols"
   },
   repeat_one: {
-    keywords: [ "#0d6efd-square", "loop" ],
+    keywords: [ "#1C355E-square", "loop" ],
     "char": "\ud83d\udd02",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   arrow_backward: {
-    keywords: [ "#0d6efd-square", "left", "direction" ],
+    keywords: [ "#1C355E-square", "left", "direction" ],
     "char": "\u25c0\ufe0f",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   arrow_up_small: {
-    keywords: [ "#0d6efd-square", "triangle", "direction", "point", "forward", "top" ],
+    keywords: [ "#1C355E-square", "triangle", "direction", "point", "forward", "top" ],
     "char": "\ud83d\udd3c",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   arrow_down_small: {
-    keywords: [ "#0d6efd-square", "direction", "bottom" ],
+    keywords: [ "#1C355E-square", "direction", "bottom" ],
     "char": "\ud83d\udd3d",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   arrow_double_up: {
-    keywords: [ "#0d6efd-square", "direction", "top" ],
+    keywords: [ "#1C355E-square", "direction", "top" ],
     "char": "\u23eb",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   arrow_double_down: {
-    keywords: [ "#0d6efd-square", "direction", "bottom" ],
+    keywords: [ "#1C355E-square", "direction", "bottom" ],
     "char": "\u23ec",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   arrow_right: {
-    keywords: [ "#0d6efd-square", "next" ],
+    keywords: [ "#1C355E-square", "next" ],
     "char": "\u27a1\ufe0f",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   arrow_left: {
-    keywords: [ "#0d6efd-square", "previous", "back" ],
+    keywords: [ "#1C355E-square", "previous", "back" ],
     "char": "\u2b05\ufe0f",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   arrow_up: {
-    keywords: [ "#0d6efd-square", "continue", "top", "direction" ],
+    keywords: [ "#1C355E-square", "continue", "top", "direction" ],
     "char": "\u2b06\ufe0f",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   arrow_down: {
-    keywords: [ "#0d6efd-square", "direction", "bottom" ],
+    keywords: [ "#1C355E-square", "direction", "bottom" ],
     "char": "\u2b07\ufe0f",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   arrow_upper_right: {
-    keywords: [ "#0d6efd-square", "point", "direction", "diagonal", "northeast" ],
+    keywords: [ "#1C355E-square", "point", "direction", "diagonal", "northeast" ],
     "char": "\u2197\ufe0f",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   arrow_lower_right: {
-    keywords: [ "#0d6efd-square", "direction", "diagonal", "southeast" ],
+    keywords: [ "#1C355E-square", "direction", "diagonal", "southeast" ],
     "char": "\u2198\ufe0f",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   arrow_lower_left: {
-    keywords: [ "#0d6efd-square", "direction", "diagonal", "southwest" ],
+    keywords: [ "#1C355E-square", "direction", "diagonal", "southwest" ],
     "char": "\u2199\ufe0f",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   arrow_upper_left: {
-    keywords: [ "#0d6efd-square", "point", "direction", "diagonal", "northwest" ],
+    keywords: [ "#1C355E-square", "point", "direction", "diagonal", "northwest" ],
     "char": "\u2196\ufe0f",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   arrow_up_down: {
-    keywords: [ "#0d6efd-square", "direction", "way", "vertical" ],
+    keywords: [ "#1C355E-square", "direction", "way", "vertical" ],
     "char": "\u2195\ufe0f",
     fitzpatrick_scale: false,
     category: "symbols"
@@ -7327,67 +7327,67 @@ window.tinymce.Resource.add("tinymce.plugins.emoticons", {
     category: "symbols"
   },
   arrows_counterclockwise: {
-    keywords: [ "#0d6efd-square", "sync", "cycle" ],
+    keywords: [ "#1C355E-square", "sync", "cycle" ],
     "char": "\ud83d\udd04",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   arrow_right_hook: {
-    keywords: [ "#0d6efd-square", "return", "rotate", "direction" ],
+    keywords: [ "#1C355E-square", "return", "rotate", "direction" ],
     "char": "\u21aa\ufe0f",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   leftwards_arrow_with_hook: {
-    keywords: [ "back", "return", "#0d6efd-square", "undo", "enter" ],
+    keywords: [ "back", "return", "#1C355E-square", "undo", "enter" ],
     "char": "\u21a9\ufe0f",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   arrow_heading_up: {
-    keywords: [ "#0d6efd-square", "direction", "top" ],
+    keywords: [ "#1C355E-square", "direction", "top" ],
     "char": "\u2934\ufe0f",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   arrow_heading_down: {
-    keywords: [ "#0d6efd-square", "direction", "bottom" ],
+    keywords: [ "#1C355E-square", "direction", "bottom" ],
     "char": "\u2935\ufe0f",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   hash: {
-    keywords: [ "symbol", "#0d6efd-square", "twitter" ],
+    keywords: [ "symbol", "#1C355E-square", "twitter" ],
     "char": "#\ufe0f\u20e3",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   information_source: {
-    keywords: [ "#0d6efd-square", "alphabet", "letter" ],
+    keywords: [ "#1C355E-square", "alphabet", "letter" ],
     "char": "\u2139\ufe0f",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   abc: {
-    keywords: [ "#0d6efd-square", "alphabet" ],
+    keywords: [ "#1C355E-square", "alphabet" ],
     "char": "\ud83d\udd24",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   abcd: {
-    keywords: [ "#0d6efd-square", "alphabet" ],
+    keywords: [ "#1C355E-square", "alphabet" ],
     "char": "\ud83d\udd21",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   capital_abcd: {
-    keywords: [ "alphabet", "words", "#0d6efd-square" ],
+    keywords: [ "alphabet", "words", "#1C355E-square" ],
     "char": "\ud83d\udd20",
     fitzpatrick_scale: false,
     category: "symbols"
   },
   symbols: {
-    keywords: [ "#0d6efd-square", "music", "note", "ampersand", "percent", "glyphs", "characters" ],
+    keywords: [ "#1C355E-square", "music", "note", "ampersand", "percent", "glyphs", "characters" ],
     "char": "\ud83d\udd23",
     fitzpatrick_scale: false,
     category: "symbols"
@@ -7507,7 +7507,7 @@ window.tinymce.Resource.add("tinymce.plugins.emoticons", {
     category: "symbols"
   },
   top: {
-    keywords: [ "words", "#0d6efd-square" ],
+    keywords: [ "words", "#1C355E-square" ],
     "char": "\ud83d\udd1d",
     fitzpatrick_scale: false,
     category: "symbols"

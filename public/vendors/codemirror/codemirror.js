@@ -9312,7 +9312,7 @@
 
     display.wrapper.insertBefore(this.wrapper, display.wrapper.firstChild);
 
-    // Needed to hide big #0d6efd blinking cursor on Mobile Safari (doesn't seem to work in iOS 8 anymore)
+    // Needed to hide big #1C355E blinking cursor on Mobile Safari (doesn't seem to work in iOS 8 anymore)
     if (ios) { te.style.width = "0px"; }
 
     on(te, "input", function () {

@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const targetColor = '#0d6efd';
+const targetColor = '#1C355E';
 const colorPatterns = [
   /#0000FF/gi, // Blue
   /#00FFFF/gi, // Cyan
@@ -17,7 +17,7 @@ const colorPatterns = [
   /#74ebd5/gi,
   /#acb6e5/gi,
   /#acb6e5/gi,
-  /#1C355E/gi,
+  /#0d6efd/gi,
   /#4B49AC/gi
 ];
 

@@ -19,7 +19,7 @@
         }
 
         .login-card {
-            background: #0d6efd;
+            background: #1C355E;
             border-top-right-radius: 20px;
             border-bottom-right-radius: 20px;
             border: 2px solidrgb(255, 255, 255);
@@ -77,7 +77,7 @@
         .btn-primary {
             background:rgb(255, 255, 255);
             border: none;
-            color: #0d6efd;
+            color: #1C355E;
         }
 
         .btn-primary:hover {
@@ -138,7 +138,7 @@
                 <label for="password" class="form-label">Password</label>
                 <input type="password" name="password" class="form-control" @error('password') is-invalid @enderror
                     id="password" required>
-                <span class="toggle-password" id="togglePassword"><i class="fa-solid fa-eye" style="color: #0d6efd;"></i></span>
+                <span class="toggle-password" id="togglePassword"><i class="fa-solid fa-eye" style="color: #1C355E;"></i></span>
                 @error('password')
                     <span class="invalid-feedback" role="alert">
                         <strong>{{ $message }}</strong>
@@ -289,7 +289,7 @@
         togglePassword.addEventListener('click', () => {
             const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
             passwordInput.setAttribute('type', type);
-            togglePassword.innerHTML = type === 'password' ? '<i class="fa-solid fa-eye" style="color: #0d6efd;"></i>' : '<i class="fa-solid fa-eye-slash" style="color: #0d6efd;"></i>';
+            togglePassword.innerHTML = type === 'password' ? '<i class="fa-solid fa-eye" style="color: #1C355E;"></i>' : '<i class="fa-solid fa-eye-slash" style="color: #1C355E;"></i>';
         });
 
 

@@ -18,7 +18,7 @@
         }
 
         .login-card {
-            background: #0d6efd;
+            background: #1C355E;
             border-top-right-radius: 20px;
             border-bottom-right-radius: 20px;
             box-shadow: 0 8px 20px rgba(27, 17, 85, 0.19);
@@ -78,7 +78,7 @@
         .btn-primary {
             background: rgb(255, 255, 255);
             border: none;
-            color: #0d6efd;
+            color: #1C355E;
         }
 
         .btn-primary:hover {
@@ -128,6 +128,7 @@
 
                 <div class="col-lg-6">
                     <div class="form-group">
+                        <label for="">Full Name</label>
                         <input type="text" name="name" class="form-control" placeholder="Full Name"
                             value="{{ old('name') }}" required>
                     </div>
@@ -135,6 +136,7 @@
 
                 <div class="col-lg-6">
                     <div class="form-group">
+                        <label for="">Father Name</label>
                         <input type="text" name="fatherName" class="form-control" placeholder="Father's Name"
                             value="{{ old('fatherName') }}" required>
                     </div>
@@ -142,6 +144,7 @@
 
                 <div class="col-lg-6">
                     <div class="form-group">
+                        <label for="">Email</label>
                         <input type="email" name="email" class="form-control" placeholder="Email"
                             value="{{ old('email') }}" required>
                     </div>
@@ -149,6 +152,7 @@
 
                 <div class="col-lg-6">
                     <div class="form-group">
+                        <label for="">Phone</label>
                         <input type="text" name="phone" class="form-control" placeholder="Phone"
                             value="{{ old('phone') }}" required>
                     </div>
@@ -156,12 +160,14 @@
 
                 <div class="col-lg-6">
                     <div class="form-group">
+                        <label for="">Password</label>
                         <input type="password" name="password" class="form-control" placeholder="Password" required>
                     </div>
                 </div>
 
                 <div class="col-lg-6">
                     <div class="form-group">
+                        <label for="">Confirm Password</label>
                         <input type="password" name="password_confirmation" class="form-control"
                             placeholder="Confirm Password" required>
                     </div>
